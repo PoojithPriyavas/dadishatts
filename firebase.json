@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "dadisha-tts",
+          "appId": "1:657763611877:android:f596d0b3c0a3b6aea2500c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "dadisha-tts",
+          "configurations": {
+            "android": "1:657763611877:android:f596d0b3c0a3b6aea2500c",
+            "web": "1:657763611877:web:655eeef7d0690c08a2500c"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
